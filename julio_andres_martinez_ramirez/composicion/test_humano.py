@@ -15,4 +15,4 @@ def test_funcion_corazon():
     Corazon03 = Corazon(0)
     Humano03 = Humano("Europea", "Femenino",Corazon03)
     Humano03.corazon.latir()
-    assert Humano03.corazon.ritmo == 1
+    assert Humano03.corazon == Corazon03
